@@ -39,3 +39,6 @@ e .....<br>
 ## Dependencies
 - gcc
 - shell
+
+## Console preview
+![Go console preview](./img/console_preview.jpg)
