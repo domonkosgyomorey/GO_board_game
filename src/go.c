@@ -5,6 +5,9 @@
 const char go_sim[3] = {'O', '#', '.'};
 
 go_return_type go_init(go_t** go_pp, int w, int h){
+  w = w>GO_MAX_BOARD_SIZE?GO_MAX_BOARD_SIZE:w;
+  h = h>GO_MAX_BOARD_SIZE?GO_MAX_BOARD_SIZE:w;
+
   (*go_pp) = (go_t*)malloc(sizeof(go_t));
   go_t* go_ptr = (*go_pp);
   if(!go_pp){

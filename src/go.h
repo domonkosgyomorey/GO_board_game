@@ -32,6 +32,8 @@ typedef struct {
   go_state who_turn;
 } go_t;
 
+#define GO_MAX_BOARD_SIZE 9
+
 go_return_type go_init(go_t** go_pp, int w, int h);
 void go_print(go_t* go_ptr, FILE* stream);
 go_return_type go_validate_move(go_t* go_ptr, int v_line, int h_line);
