@@ -1,11 +1,11 @@
 # Description
 [GO](https://en.wikipedia.org/wiki/Go_(game) ) (Not the language! :) ) a very complicated board game with very simple rules, like a chess
 
-I always like the chess like games and who is also like it, she/he will be like GO too.
-In fact I created my own real GO table at home.
-
-And the relatively hard thing about it... to implement it rules.
-So this project is kinda a challenge for me too.
+I always like the chess like games and who is also like it, she/he will be like GO too.<br>
+In fact I created my own real GO table at home.<br>
+<br>
+And the relatively hard thing about it... to implement it rules.<br>
+So this project is kinda a challenge for me too.<br>
 
 ## Build and run
 ```console
@@ -15,26 +15,26 @@ So this project is kinda a challenge for me too.
 ```
 
 ## How to play?
-you need to type your next move in an algebric notation.
-The '.' is the empty cell
-    'O' is the white cell
-    '#' is the black cell
-example:
-The board:
-a .....
-b .....
-c .....
-d .....
-e .....
-  01234
-An input: c2
-will cause -> 
-a .....
-b .....
-c ..O..
-d .....
-e .....
-  01234
+you need to type your next move in an algebric notation.<br>
+The '.' is the empty cell<br>
+    'O' is the white cell<br>
+    '#' is the black cell<br>
+example:<br>
+The board:<br>
+a .....<br>
+b .....<br>
+c .....<br>
+d .....<br>
+e .....<br>
+  01234<br>
+An input: c2<br>
+will cause -> <br>
+a .....<br>
+b .....<br>
+c ..O..<br>
+d .....<br>
+e .....<br>
+  01234<br>
 
 ## Dependencies
 - gcc
