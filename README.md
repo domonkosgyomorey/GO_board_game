@@ -1,7 +1,7 @@
 # Description
-[GO](https://en.wikipedia.org/wiki/Go_(game) ) (Not the language! :) ) a very complicated board game with very simple rules, like a chess
+[GO](https://en.wikipedia.org/wiki/Go_(game) ) (Not the language! :) ) a very complicated board game with very simple rules, like the Chess
 
-I always like the chess like games and who is also like it, she/he will be like GO too.<br>
+I always like the Chess like games and who is also like it, she/he will be like GO too.<br>
 In fact I created my own real GO table at home.<br>
 <br>
 And the relatively hard thing about it... to implement it rules.<br>
