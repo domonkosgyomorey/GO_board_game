@@ -8,14 +8,16 @@ int end = 0;
 int main(void){
   printf("Hello, World!\n");
   
+  go_renderer_start(9, 9);
+  
+  return 0;
+  
   go_t* go;
   if(go_init(&go, 7, 7)==GO_FAIL){
     printf("Go init failed\n");
   }
 
-  go_renderer_start(9, 9);
 
-  return 0;
 
   while(!end){
     go_print(go, stdout);
