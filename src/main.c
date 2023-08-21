@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "go.h"
-
+#include "go_renderer.h"
 int end = 0;
 
 int main(void){
@@ -12,6 +12,10 @@ int main(void){
   if(go_init(&go, 7, 7)==GO_FAIL){
     printf("Go init failed\n");
   }
+
+  go_renderer_start(9, 9);
+
+  return 0;
 
   while(!end){
     go_print(go, stdout);
